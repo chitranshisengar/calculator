@@ -1,0 +1,41 @@
+
+div{
+    /* padding: 5px; */
+}
+.keys{
+    padding: 10px 20px;
+    margin: 4px 4px 0 0;
+    background:  rgb(251,251,251);
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+.keys:hover{
+    background: rgb(243,243,243) !important;
+}
+.operatorKeys{
+    font-weight: 500 !important;
+    background: rgb(243,243,243) !important;
+}
+.operatorKeys:hover{
+    background: aqua !important;
+}
+.subTotal{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    width: 250px;
+    text-align: right;
+}
+.calculationString{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    width: 250px;
+    text-align: right;
+}
+.calculationString > span{
+    /* letter-spacing: 5px; */
+}

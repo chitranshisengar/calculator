@@ -1,0 +1,66 @@
+
+
+<div class="calculationString">
+    <span>{{calculationString}}</span>
+</div>
+<div class="subTotal">
+    <span>{{subTotal}}</span>
+</div>
+
+
+<div class="d-flex">
+    <div class="keys" (click)="clickKey('7')">
+        <span>7</span>
+    </div>
+    <div class="keys" (click)="clickKey('8')">
+        <span>8</span>
+    </div>
+    <div class="keys" (click)="clickKey('9')">
+        <span>9</span>
+    </div>
+    <div class="keys operatorKeys" (click)="clickKey('x')">
+        <span>x</span>
+    </div>
+</div>
+<div class="d-flex">
+    <div class="keys" (click)="clickKey('4')">
+        <span>4</span>
+    </div>
+    <div class="keys" (click)="clickKey('5')">
+        <span>5</span>
+    </div>
+    <div class="keys" (click)="clickKey('6')">
+        <span>6</span>
+    </div>
+    <div class="keys operatorKeys" (click)="clickKey('-')">
+        <span>-</span>
+    </div>
+</div>
+<div class="d-flex">
+    <div class="keys" (click)="clickKey('1')">
+        <span>1</span>
+    </div>
+    <div class="keys" (click)="clickKey('2')">
+        <span>2</span>
+    </div>
+    <div class="keys" (click)="clickKey('3')">
+        <span>3</span>
+    </div>
+    <div class="keys operatorKeys" (click)="clickKey('+')">
+        <span>+</span>
+    </div>
+</div>
+<div class="d-flex">
+    <div class="keys operatorKeys" (click)="clickKey('/')">
+        <span>/</span>
+    </div>
+    <div class="keys" (click)="clickKey('0')">
+        <span>0</span>
+    </div>
+    <div class="keys operatorKeys" (click)="clickKey('.')">
+        <span>.</span>
+    </div>
+    <div class="keys operatorKeys" (click)="finalAnswer('=')">
+        <span>=</span>
+    </div>
+</div>
